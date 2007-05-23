@@ -1,0 +1,11 @@
+--- galago-gtk-python-0.5.0/configure.ac~	2006-04-17 09:25:44.000000000 +0200
++++ galago-gtk-python-0.5.0/configure.ac	2007-05-23 13:04:58.656331488 +0200
+@@ -33,7 +33,7 @@
+ AC_MSG_RESULT($PYGTK_DEFSDIR)
+ 
+ AC_MSG_CHECKING(for pygtk codegen)
+-PYGTK_CODEGEN="$PYTHON `$PKG_CONFIG --variable=codegendir pygtk-2.0`/codegen.py"
++PYGTK_CODEGEN="$PYTHON `$PKG_CONFIG --variable=codegendir pygtk-2.0`/codegen.pyc"
+ AC_SUBST(PYGTK_CODEGEN)
+ AC_MSG_RESULT($PYGTK_CODEGEN)
+ 
